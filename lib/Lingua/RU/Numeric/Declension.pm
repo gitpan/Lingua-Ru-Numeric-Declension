@@ -1,7 +1,7 @@
 package Lingua::RU::Numeric::Declension;
 
 use vars qw ($VERSION);
-$VERSION = '1.0';
+$VERSION = '1.1';
 
 use strict;
 
@@ -33,7 +33,7 @@ Lingua::RU::Numeric::Declension - Chooses variant of declension dependent on the
 =head1 SYNOPSIS
 
 	use Lingua::RU::Numeric::Declension "numdecl";
-	printf "%i %s", 38, numdecl(38, 'попугай', 'попугая', 'попугаев');
+	printf "%i %s", 38, numdecl(38, 'parrot', 'parrota', 'parrotov');
 
 
 =head1 ABSTRACT
@@ -56,6 +56,6 @@ Andrew Shitov, <andy@shitov.ru>
 =head1 COPYRIGHT AND LICENSE
 
 Lingua::RU::Numeric::Declension module is a free software. 
-You may redistribute and (or) modify it under the same terms as Perl.
+You may redistribute and (or) modify it under the same terms as Perl, which ever version you mean.
 
 =cut
